@@ -15,7 +15,7 @@
         <attribute name="sent" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="text" attributeType="String"/>
         <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
-        <relationship name="chat" maxCount="1" deletionRule="Cascade" destinationEntity="Chat" inverseName="messages" inverseEntity="Chat"/>
+        <relationship name="chat" maxCount="1" deletionRule="Nullify" destinationEntity="Chat" inverseName="messages" inverseEntity="Chat"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
         <attribute name="email" attributeType="String"/>

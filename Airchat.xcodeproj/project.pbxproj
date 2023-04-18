@@ -12,10 +12,20 @@
 		5739D2B5292C49DA003F91E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5739D2B4292C49DA003F91E4 /* Assets.xcassets */; };
 		5739D2B8292C49DA003F91E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5739D2B7292C49DA003F91E4 /* Preview Assets.xcassets */; };
 		5739D2BA292C49DA003F91E4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2B9292C49DA003F91E4 /* Persistence.swift */; };
-		5739D2BD292C49DA003F91E4 /* Airchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2BB292C49DA003F91E4 /* Airchat.xcdatamodeld */; };
 		5739D2C7292C49DA003F91E4 /* AirchatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2C6292C49DA003F91E4 /* AirchatTests.swift */; };
 		5739D2D1292C49DA003F91E4 /* AirchatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2D0292C49DA003F91E4 /* AirchatUITests.swift */; };
 		5739D2D3292C49DA003F91E4 /* AirchatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2D2292C49DA003F91E4 /* AirchatUITestsLaunchTests.swift */; };
+		5739D2E32931400C003F91E4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739D2E22931400C003F91E4 /* LoginView.swift */; };
+		573C6CFD2985F5E6005CD417 /* AddConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C6CFC2985F5E6005CD417 /* AddConversationView.swift */; };
+		573C6D012985F861005CD417 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573C6D002985F861005CD417 /* BLEController.swift */; };
+		574B6155293981EB00799E88 /* Airchat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574B6152293981EB00799E88 /* Airchat.xcdatamodeld */; };
+		575DA4262938349800DDD941 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DA4252938349800DDD941 /* SettingsView.swift */; };
+		5787C63B2931A7E600D19DEF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5787C63A2931A7E600D19DEF /* SignupView.swift */; };
+		5787C63D29324D6C00D19DEF /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5787C63C29324D6C00D19DEF /* ConversationsView.swift */; };
+		5787C63F29324F0C00D19DEF /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5787C63E29324F0C00D19DEF /* MessageView.swift */; };
+		57AD9EC229EE222A00CD849B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 57AD9EC129EE222A00CD849B /* .gitignore */; };
+		57D64DF1294507FB00845A67 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D64DF0294507FB00845A67 /* MockData.swift */; };
+		57D64DF329450B1C00845A67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D64DF229450B1C00845A67 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,12 +52,25 @@
 		5739D2B4292C49DA003F91E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5739D2B7292C49DA003F91E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5739D2B9292C49DA003F91E4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		5739D2BC292C49DA003F91E4 /* Airchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airchat.xcdatamodel; sourceTree = "<group>"; };
 		5739D2C2292C49DA003F91E4 /* AirchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5739D2C6292C49DA003F91E4 /* AirchatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirchatTests.swift; sourceTree = "<group>"; };
 		5739D2CC292C49DA003F91E4 /* AirchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5739D2D0292C49DA003F91E4 /* AirchatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirchatUITests.swift; sourceTree = "<group>"; };
 		5739D2D2292C49DA003F91E4 /* AirchatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirchatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5739D2DF293139FF003F91E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5739D2E22931400C003F91E4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		573C6CFC2985F5E6005CD417 /* AddConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConversationView.swift; sourceTree = "<group>"; };
+		573C6CFE2985F7FA005CD417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		573C6D002985F861005CD417 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		574B6153293981EB00799E88 /* Airchat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Airchat.xcdatamodel; sourceTree = "<group>"; };
+		574B6154293981EB00799E88 /* Airchat 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Airchat 2.xcdatamodel"; sourceTree = "<group>"; };
+		575DA4252938349800DDD941 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5787C63A2931A7E600D19DEF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		5787C63C29324D6C00D19DEF /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
+		5787C63E29324F0C00D19DEF /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		57AD9EC129EE222A00CD849B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		57D64DF0294507FB00845A67 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		57D64DF229450B1C00845A67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,7 @@
 		5739D2A4292C49DA003F91E4 = {
 			isa = PBXGroup;
 			children = (
+				57AD9EC129EE222A00CD849B /* .gitignore */,
 				5739D2AF292C49DA003F91E4 /* Airchat */,
 				5739D2C5292C49DA003F91E4 /* AirchatTests */,
 				5739D2CF292C49DA003F91E4 /* AirchatUITests */,
@@ -98,12 +122,17 @@
 		5739D2AF292C49DA003F91E4 /* Airchat */ = {
 			isa = PBXGroup;
 			children = (
+				573C6CFF2985F83F005CD417 /* Controllers */,
+				573C6CFE2985F7FA005CD417 /* Info.plist */,
+				5739D2E129313E63003F91E4 /* Models */,
+				5739D2E029313E0D003F91E4 /* Views */,
 				5739D2B0292C49DA003F91E4 /* AirchatApp.swift */,
 				5739D2B2292C49DA003F91E4 /* ContentView.swift */,
 				5739D2B4292C49DA003F91E4 /* Assets.xcassets */,
 				5739D2B9292C49DA003F91E4 /* Persistence.swift */,
-				5739D2BB292C49DA003F91E4 /* Airchat.xcdatamodeld */,
 				5739D2B6292C49DA003F91E4 /* Preview Content */,
+				5739D2DF293139FF003F91E4 /* README.md */,
+				57D64DF229450B1C00845A67 /* Constants.swift */,
 			);
 			path = Airchat;
 			sourceTree = "<group>";
@@ -131,6 +160,36 @@
 				5739D2D2292C49DA003F91E4 /* AirchatUITestsLaunchTests.swift */,
 			);
 			path = AirchatUITests;
+			sourceTree = "<group>";
+		};
+		5739D2E029313E0D003F91E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5739D2E22931400C003F91E4 /* LoginView.swift */,
+				5787C63A2931A7E600D19DEF /* SignupView.swift */,
+				5787C63C29324D6C00D19DEF /* ConversationsView.swift */,
+				575DA4252938349800DDD941 /* SettingsView.swift */,
+				5787C63E29324F0C00D19DEF /* MessageView.swift */,
+				573C6CFC2985F5E6005CD417 /* AddConversationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5739D2E129313E63003F91E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				574B6152293981EB00799E88 /* Airchat.xcdatamodeld */,
+				57D64DF0294507FB00845A67 /* MockData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		573C6CFF2985F83F005CD417 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				573C6D002985F861005CD417 /* BLEController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5739D2B8292C49DA003F91E4 /* Preview Assets.xcassets in Resources */,
+				57AD9EC229EE222A00CD849B /* .gitignore in Resources */,
 				5739D2B5292C49DA003F91E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5739D2BD292C49DA003F91E4 /* Airchat.xcdatamodeld in Sources */,
+				5787C63F29324F0C00D19DEF /* MessageView.swift in Sources */,
+				57D64DF329450B1C00845A67 /* Constants.swift in Sources */,
+				5787C63B2931A7E600D19DEF /* SignupView.swift in Sources */,
+				575DA4262938349800DDD941 /* SettingsView.swift in Sources */,
 				5739D2BA292C49DA003F91E4 /* Persistence.swift in Sources */,
+				574B6155293981EB00799E88 /* Airchat.xcdatamodeld in Sources */,
 				5739D2B3292C49DA003F91E4 /* ContentView.swift in Sources */,
+				573C6CFD2985F5E6005CD417 /* AddConversationView.swift in Sources */,
 				5739D2B1292C49DA003F91E4 /* AirchatApp.swift in Sources */,
+				573C6D012985F861005CD417 /* BLEController.swift in Sources */,
+				5787C63D29324D6C00D19DEF /* ConversationsView.swift in Sources */,
+				5739D2E32931400C003F91E4 /* LoginView.swift in Sources */,
+				57D64DF1294507FB00845A67 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +497,13 @@
 				DEVELOPMENT_TEAM = LJ29NP93NZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Airchat/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires bluetooth for messages to be sent and received.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,11 +528,13 @@
 				DEVELOPMENT_TEAM = LJ29NP93NZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Airchat/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app requires bluetooth for messages to be sent and received.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,13 +666,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5739D2BB292C49DA003F91E4 /* Airchat.xcdatamodeld */ = {
+		574B6152293981EB00799E88 /* Airchat.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5739D2BC292C49DA003F91E4 /* Airchat.xcdatamodel */,
+				574B6153293981EB00799E88 /* Airchat.xcdatamodel */,
+				574B6154293981EB00799E88 /* Airchat 2.xcdatamodel */,
 			);
-			currentVersion = 5739D2BC292C49DA003F91E4 /* Airchat.xcdatamodel */;
-			path = Airchat.xcdatamodeld;
+			currentVersion = 574B6153293981EB00799E88 /* Airchat.xcdatamodel */;
+			name = Airchat.xcdatamodeld;
+			path = ../Airchat.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
